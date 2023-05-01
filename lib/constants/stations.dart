@@ -1,0 +1,127 @@
+import 'package:audio_service/audio_service.dart';
+
+class MediaLibrary {
+  final _stations = [
+    MediaItem(
+      id: "http://stv-radio.ru:8000/STV-Radio96k",
+      album: "СТВ Радио",
+      title: "СТВ Радио",
+      artist: "СТВ Радио",
+      duration: Duration.zero,
+      artUri: "assets/images/stations/stvrad.jpg",
+    ),
+    MediaItem(
+      id: "http://37.139.33.202:8000/stream.mp3",
+      album: "Виктория Саха",
+      title: "Виктория Саха",
+      artist: "Виктория Саха",
+      duration: Duration.zero,
+      artUri: "assets/images/stations/viktoria.jpg",
+    ),
+    MediaItem(
+      id: "https://icecast-saha.cdnvideo.ru/saha",
+      album: "радио Тэтим",
+      title: "радио Тэтим",
+      artist: "радио Тэтим",
+      duration: Duration.zero,
+      artUri: "assets/images/stations/tetim.png",
+    ),
+    MediaItem(
+      id: "https://retro.hostingradio.ru/retro90-128.mp3",
+      album: "Ретро ФМ",
+      title: "Ретро ФМ",
+      artist: "Ретро ФМ",
+      duration: Duration.zero,
+      artUri: "assets/images/stations/retrofm.jpg",
+    ),
+    MediaItem(
+      id: "https://pub0301.101.ru:8443/stream/air/mp3/256/219",
+      album: "Like ФМ",
+      title: "Like ФМ",
+      artist: "Like ФМ",
+      duration: Duration.zero,
+      artUri: "assets/images/stations/likefm.png",
+    ),
+    MediaItem(
+      id: "https://rockhits.hostingradio.ru/rockhits96.aacp",
+      album: "Rock Hits",
+      title: "Rock Hits",
+      artist: "Rock Hits",
+      duration: Duration.zero,
+      artUri: "assets/images/stations/mamimum-rock-hits.jpg",
+    ),
+    MediaItem(
+      id: "https://dorognoe.hostingradio.ru/radio",
+      album: "Дорожное",
+      title: "Дорожное",
+      artist: "Дорожное",
+      duration: Duration.zero,
+      artUri: "assets/images/stations/dorojnoe.png",
+    ),
+    MediaItem(
+      id: "https://nashe1.hostingradio.ru/nashe-256",
+      album: "Наше Радио",
+      title: "Наше Радио",
+      artist: "Наше Радио",
+      duration: Duration.zero,
+      artUri: "assets/images/stations/nase-radio.png",
+    ),
+    MediaItem(
+      id: "https://pub0301.101.ru:8443/stream/air/mp3/256/100",
+      album: "Авторадио",
+      title: "Авторадио",
+      artist: "Авторадио",
+      duration: Duration.zero,
+      artUri: "assets/images/stations/auto.png",
+    ),
+    MediaItem(
+      id: "https://radiorecord.hostingradio.ru/sd9096.aacp",
+      album: "Дискотека 90х",
+      title: "Дискотека 90х",
+      artist: "Дискотека 90х",
+      duration: Duration.zero,
+      artUri: "assets/images/stations/disko90.jpg",
+    ),
+    MediaItem(
+      id: "https://europaplus.hostingradio.ru:8030/ep128",
+      album: "Европа Плюс",
+      title: "Европа Плюс",
+      artist: "Европа Плюс",
+      duration: Duration.zero,
+      artUri: "assets/images/stations/europa-plus.png",
+    ),
+    MediaItem(
+      id: "https://radiorecord.hostingradio.ru/rr_main96.aacp",
+      album: "Радио Рекорд",
+      title: "Радио Рекорд",
+      artist: "Радио Рекорд",
+      duration: Duration.zero,
+      artUri: "assets/images/stations/radiorecord.jpg",
+    )
+  ];
+
+  List<MediaItem> get stations => _stations;
+}
+
+// final List<Station> stations = [
+//   Station('assets/images/stations/kissfm.png', 'Kiss FM',
+//       'http://live.kissfm.ro:9128/kissfm.aacp'),
+//   Station('assets/images/stations/europafm.png', 'Europa FM',
+//       'http://astreaming.europafm.ro:8000/EuropaFM_aac'),
+//   Station('assets/images/stations/profm.png', 'Pro FM',
+//       'http://edge126.rdsnet.ro:84/profm/profm.mp3'),
+//   Station('assets/images/stations/radiozu.png', 'Radio ZU',
+//       'https://live7digi.antenaplay.ro/radiozu/radiozu-48000.m3u8'),
+//   Station('assets/images/stations/magicfm.png', 'Magic FM',
+//       'http://live.magicfm.ro:9128/magicfm.aacp'),
+//   Station('assets/images/stations/virgin.png', 'Virgin Radio Romania',
+//       'http://astreaming.virginradio.ro:8000/virgin_aacp_64k'),
+//   Station('assets/images/stations/onefm.png', 'One FM',
+//       'http://live.onefm.ro:9128/onefm.aacp'),
+//   Station('assets/images/stations/vibefm.png', 'Vibe FM',
+//       'http://astreaming.vibefm.ro:8000/vibefm_aacp48k'),
+//   Station('assets/images/stations/rockfm.png', 'Rock FM',
+//       'http://live.rockfm.ro:9128/rockfm.aacp'),
+//   Station('assets/images/stations/impuls.png', 'Impuls Radio',
+//       'https://live.radio-impuls.ro/stream'),
+// ];
